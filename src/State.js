@@ -23,7 +23,7 @@ export default class State extends Component {
                 <input type={"number"} value={this.state.num2} onChange={(e2) =>
                     this.setState({num2: parseFloat(e2.target.value)})}/>
                 <br/>
-                <button  onClick={(add) =>
+                <button onClick={(add) =>
                     this.setState({addition: this.state.num1 + this.state.num2})}>Cộng
                 </button>
                 <button onClick={(add) =>
